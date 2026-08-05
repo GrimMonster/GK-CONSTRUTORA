@@ -28,25 +28,6 @@ export const Footer: React.FC<FooterProps> = ({ onOpenQuoteModal }) => {
             <p className="text-neutral-400 text-xs font-light max-w-sm leading-relaxed">
               Engenharia de alta precisão e solidez estrutural para empreendimentos de alto padrão.
             </p>
-
-            <div className="flex items-center space-x-3 pt-1">
-              <a
-                href="https://linkedin.com"
-                target="_blank"
-                rel="noreferrer"
-                className="w-8 h-8 rounded bg-[#181818] border border-white/10 flex items-center justify-center text-neutral-400 hover:text-white hover:border-white transition-colors"
-              >
-                <Linkedin className="w-3.5 h-3.5" />
-              </a>
-              <a
-                href="https://instagram.com"
-                target="_blank"
-                rel="noreferrer"
-                className="w-8 h-8 rounded bg-[#181818] border border-white/10 flex items-center justify-center text-neutral-400 hover:text-white hover:border-white transition-colors"
-              >
-                <Instagram className="w-3.5 h-3.5" />
-              </a>
-            </div>
           </div>
 
           {/* Office */}
