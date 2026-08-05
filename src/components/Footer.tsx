@@ -60,9 +60,14 @@ export const Footer: React.FC<FooterProps> = ({ onOpenQuoteModal }) => {
               Contato
             </h4>
             <div className="space-y-2 text-xs text-neutral-300">
-              <a href="tel:1130908800" className="flex items-center space-x-2 hover:text-white transition-colors">
+              <a
+                href="https://wa.me/5547991948238?text=Ol%C3%A1,%20gostaria%20de%20solicitar%20um%20or%C3%A7amento."
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center space-x-2 hover:text-white transition-colors"
+              >
                 <Phone className="w-3.5 h-3.5 text-neutral-400" />
-                <span>(11) 3090-8800</span>
+                <span>(47) 99194-8238 (WhatsApp)</span>
               </a>
               <a href="mailto:contato@gkconstrutora.com.br" className="flex items-center space-x-2 hover:text-white transition-colors">
                 <Mail className="w-3.5 h-3.5 text-neutral-400" />

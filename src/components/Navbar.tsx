@@ -86,13 +86,13 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenQuoteModal }) => {
           {/* Actions */}
           <div className="hidden lg:flex items-center space-x-4">
             <a
-              href="https://wa.me/5511999999999?text=Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20constru%C3%A7%C3%A3o%20de%20alto%20padr%C3%A3o"
+              href="https://wa.me/5547991948238?text=Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20constru%C3%A7%C3%A3o%20de%20alto%20padr%C3%A3o"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center space-x-2 text-xs font-semibold uppercase tracking-wider text-neutral-300 hover:text-white px-3 py-2 rounded-md transition-colors"
             >
               <PhoneCall className="w-3.5 h-3.5 text-[#D4AF37]" />
-              <span>(11) 3090-8800</span>
+              <span>(47) 99194-8238</span>
             </a>
 
             <button
@@ -141,11 +141,13 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenQuoteModal }) => {
             ))}
             <div className="pt-4 flex flex-col space-y-3">
               <a
-                href="tel:1130908800"
+                href="https://wa.me/5547991948238?text=Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20constru%C3%A7%C3%A3o%20de%20alto%20padr%C3%A3o"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="flex items-center space-x-2 text-xs text-neutral-300"
               >
                 <PhoneCall className="w-4 h-4 text-[#D4AF37]" />
-                <span>Atendimento VIP: (11) 3090-8800</span>
+                <span>WhatsApp: (47) 99194-8238</span>
               </a>
               <button
                 onClick={() => {

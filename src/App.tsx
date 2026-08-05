@@ -20,8 +20,10 @@ export default function App() {
   const [quoteInitialMessage, setQuoteInitialMessage] = useState('');
 
   const handleOpenQuoteModal = (initialMessage = '') => {
-    setQuoteInitialMessage(initialMessage);
-    setIsQuoteModalOpen(true);
+    const defaultMsg = 'Olá! Gostaria de solicitar um orçamento de engenharia para meu projeto com a GK Construtora.';
+    const msg = initialMessage && initialMessage.trim() ? initialMessage : defaultMsg;
+    const url = `https://wa.me/5547991948238?text=${encodeURIComponent(msg)}`;
+    window.open(url, '_blank', 'noopener,noreferrer');
   };
 
   const handleCloseQuoteModal = () => {

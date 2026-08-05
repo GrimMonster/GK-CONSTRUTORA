@@ -40,12 +40,24 @@ export const QuoteModal: React.FC<QuoteModalProps> = ({
     e.preventDefault();
     setIsSubmitting(true);
 
+    const messageLines = [
+      `*Solicitação de Orçamento - GK Construtora*`,
+      `*Nome:* ${formData.name}`,
+      `*E-mail:* ${formData.email}`,
+      `*Telefone:* ${formData.phone}`,
+      `*Tipo de Projeto:* ${formData.projectType}`,
+      formData.message ? `*Mensagem:* ${formData.message}` : '',
+    ].filter(Boolean).join('\n');
+
+    const whatsappUrl = `https://wa.me/5547991948238?text=${encodeURIComponent(messageLines)}`;
+
     setTimeout(() => {
       const randomCode = `GK-${Math.floor(100000 + Math.random() * 900000)}`;
       setReferenceCode(randomCode);
       setIsSubmitting(false);
       setIsSubmitted(true);
-    }, 1200);
+      window.open(whatsappUrl, '_blank', 'noopener,noreferrer');
+    }, 800);
   };
 
   const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
