@@ -1,5 +1,5 @@
 import React from 'react';
-import { Phone, Mail, Instagram, Linkedin, ArrowUp } from 'lucide-react';
+import { Phone, Mail, ArrowUp } from 'lucide-react';
 
 interface FooterProps {
   onOpenQuoteModal: () => void;
