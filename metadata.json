@@ -1,0 +1,6 @@
+{
+  "name": "GK Construtora",
+  "description": "Engenharia e Construção de Alto Padrão - Industrial Luxury & Precision",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
